@@ -1,0 +1,7 @@
+1. ConstructorDefault
+2. Referinte
+3. TransferParametri
+4. ClasaChange
+5. MetodaToString
+6. ImmutableAndMutable
+7. Final
