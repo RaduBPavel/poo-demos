@@ -1,0 +1,31 @@
+
+Command - command pattern behavioural -> comportamental
+
+FLOW:
+
+1. Command - interfata/clasa abstracta
+- trebuie sa stie asupra cui aplicam -> referinta la un Receiver
+
+- execute()
+- undo()
+- redo()
+- last_5_commands()
+
+1.2 Comenzile concrete -> implementa Command
+
+++ alte metode
+
+2. Invoker -> ia fiecare comanda in parte, si ii da execute
+- poate sa tina un log cu toate comenzile care au trecut prin el
+
+- trebuie sa aiba metoda execute()
+
+++ alte metode
+
+3. Receiver = asupra cui se aplica comanda
+
+
+Command -> Invoker -> Receiver
+
+
+
